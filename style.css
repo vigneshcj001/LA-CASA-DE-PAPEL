@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size:cover;
+    background-position: 110rem 0; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    padding: 0 4rem;
+    margin: 2rem 0;
+}
+.navbar .logo span{
+    color: red;
+    font-weight: 800;
+}
+.navbar  .menu ul{
+    display: flex;
+    padding: 0 8rem;
+}
+
+.navbar  .menu ul li{
+    
+    padding: 0 2rem;
+    list-style: none;
+}
+.navbar  .menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.navbar  .menu ul li a:hover{
+    text-decoration: none;
+    color:red;
+}
+.container{
+    width: 700px;
+    margin: 10rem 4rem;
+}
+.container h1 span{
+    color:red;
+    font-weight: 800;
+}
+.social{
+    width: 700px;
+    margin: 0 4rem;
+}
+.social ul {
+    display: flex;
+    
+}
+.social ul li {
+    list-style: none;
+    padding-left: 20px;
+
+    
+}
+.social ul li  a{
+   text-decoration: none;
+   color: white;
+    
+}
+.social ul li  a:hover{
+    text-decoration: none;
+    color:red;
+     
+ }
